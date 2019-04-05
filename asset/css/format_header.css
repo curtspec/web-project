@@ -1,0 +1,134 @@
+@font-face{
+    font-family: "futura-regular";
+    src: url("https://firebasestorage.googleapis.com/v0/b/homa-b9ec7.appspot.com/o/_fonts%2Ffutura%2FFutura.otf?alt=media&token=65e1e09c-dbb6-475f-bdcc-7a0430048c89");
+}
+@font-face{
+    font-family: "futura-bold";
+    src: url("https://firebasestorage.googleapis.com/v0/b/homa-b9ec7.appspot.com/o/_fonts%2Ffutura%2FFutura-Bold.otf?alt=media&token=7d3f4ad0-c800-4572-a070-c5d3514cc220");
+}
+@font-face{
+    font-family: "kor";
+    src: url("https://firebasestorage.googleapis.com/v0/b/homa-b9ec7.appspot.com/o/_fonts%2Fkor%2FSM3%EC%8B%A0%EC%A4%91%EA%B3%A0%EB%94%95-03.otf?alt=media&token=e6e21e8a-247d-4dc5-9dbd-dc1b031babb6");
+}
+@font-face{
+    font-family: "kor-bold";
+    src: url("../font/SM3KGothic-Regular.otf")
+}
+.kor{
+    /* font-family: "kor"; */
+    letter-spacing: -0.01em;
+    line-height: 1.5em;
+}
+.kor_bold{
+    /* font-family: "kor"; */
+    letter-spacing: -0.01em;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+/* ================================ about font================================= */
+
+
+*{
+    margin: 0px; padding: 0px;
+    font-family: 'futura-regular';
+}
+.header{
+    background-color: #282828;
+    position: fixed;
+    width: 100%;
+}
+#header_wrap_outer{
+    position: relative;
+}
+div.header_wrap{
+    width: 1200px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+div.global_nav{
+    position: absolute;
+    right: 0px;
+}
+div.global_nav ul{
+    list-style: none;
+}
+div.global_nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+div.global_nav ul li a{
+    display: inline-block;
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+#global_last{
+    margin-right: 10px;
+}
+#global_last>a{
+    opacity: 1;
+    font-weight: bold;
+    padding: 7px 18px;
+    background-color: #555555;
+}
+.navbar{
+    position: relative;
+    left: 230px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 38px 0;
+}
+div.dropdown{
+    position: relative;
+}
+div.dropdown_contents{
+    /* visibility: collapse; */
+    background-color: #000000;
+    opacity: 0.6;
+    display: inline-block;
+    position: absolute;
+    padding: 10px 0;
+    
+}
+div.dropdown_contents>p{
+    padding: 10px 20px;
+}
+div.dropdown_contents a{
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+._brand_{
+    left: 710px;
+}
+._menu_{
+    left: 820px;
+}
+._benefit_{
+    left: 930px;
+}
+#_navigator_{
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background-color: darkred;
+    position: absolute;
+    bottom: 28px;
+    left: 600px
+}

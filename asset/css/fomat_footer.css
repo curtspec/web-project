@@ -1,0 +1,123 @@
+article{
+    /* dockup data */
+    height: 1500px;
+}
+
+footer{
+    width: 100%;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    background-color: #282828;
+    font-size: 0.8em;
+    color: white;
+    position: relative;
+}
+div.footer_info_wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px dotted white; */
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+div.footer_info_wrap>img{
+    margin-right: 50px;
+}
+div.footer_info_main>p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+p.footer_mid_anchor a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.95em;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+div.footer_right_menu{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+div.footer_right_menu>ul{
+    list-style: none;
+    opacity: 0.7;
+}
+div.footer_right_menu li{
+    display: inline-block;
+    padding: 0 4px;
+}
+div.footer_right_menu li:first-child a{
+    font-family: "kor-bold";
+}
+div.footer_right_menu li>a{
+    color: white;
+    text-decoration: none;
+}
+div.footer_image_anchor{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+div.footer_image_anchor a:first-child{
+    margin: 0 10px;
+}
+div.footer_image_anchor a{
+    margin: 10px 5px;
+}
+div.footer_float_wrap{
+    width: 1300px;
+    position: absolute;
+    bottom: 330px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.footer_speed_menu{
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    position: relative;
+    width: 25%;
+    height: 100px;
+}
+a.footer_speed_menu p{
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+a.footer_speed_menu div{
+    display: inline-block;
+    margin-right: 30px;
+}
+a.footer_speed_menu>img{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+}
+span.footer_arrow_line{
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background-color: white;
+}
+#footer_voucher{
+    background-color: #907354;
+}
+#footer_reserve{
+    background-color: #434343;
+}
+#footer_point{
+    background-color: #c30606;
+}
