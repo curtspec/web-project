@@ -116,6 +116,7 @@ $(document).ready(()=>{
     });
 
     $('.navbar').on('mouseleave', ()=>{
+        $('#_navigator_').clearQueue();
         $('#_navigator_').animate({
             left:crnt_page_pos,
             width:crnt_page_width
