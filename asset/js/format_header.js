@@ -20,7 +20,7 @@ $(document).ready(()=>{
     let crnt_page_pos = nav_brand_pos;
     let crnt_page_width = nav_brand_width;
 
-    $('#_navigator_').width(crnt_page_width);
+    $('#_navigator_').width(0);
     $('#_navigator_').css('left', crnt_page_pos);
 
 
@@ -119,7 +119,9 @@ $(document).ready(()=>{
         $('#_navigator_').clearQueue();
         $('#_navigator_').animate({
             left:crnt_page_pos,
-            width:crnt_page_width
+        }, 300);
+        $('#_navigator_').animate({
+            width:0
         }, 300);
     });
 
