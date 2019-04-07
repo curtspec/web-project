@@ -14,13 +14,18 @@
     font-family: "kor-bold";
     src: url("../font/SM3KGothic-Regular.otf")
 }
+@font-face{
+    font-family: "akrobat-black";
+    font-weight: 700;
+    src: url('../font/Akrobat-ExtraBold.woff2');
+}
 .kor{
-    /* font-family: "kor"; */
+    font-family: kor;
     letter-spacing: -0.01em;
     line-height: 1.5em;
 }
 .kor_bold{
-    /* font-family: "kor"; */
+    font-family: kor;
     letter-spacing: -0.01em;
     line-height: 1.5em;
     font-weight: bold;
@@ -36,6 +41,7 @@
     background-color: #282828;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 #header_wrap_outer{
     position: relative;
