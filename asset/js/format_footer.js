@@ -3,7 +3,7 @@ $(document).ready(()=>{
     var screenwWidth = screen.availWidth;
     var left = (screenwWidth - 1200) / 2;
 
-    $('footer_float_wrap').css('left', left);
+    $('.footer_float_wrap').css('left', left);
 
     $('#footer_voucher').on('mouseenter', ()=>{
         $('#footer_voucher>img').animate({top:'-=20px'}, 200);
