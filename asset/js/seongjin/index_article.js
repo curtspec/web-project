@@ -1,6 +1,6 @@
 $(document).ready(()=>{
 
-    var avilableWidth = $(document).width();
+    var avilableWidth = screen.availWidth;
     
     $('.index_image_slide li img').css('width', avilableWidth);
 

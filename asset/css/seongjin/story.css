@@ -29,8 +29,79 @@
     color: gray;
 }
 .story_body{
+    width: 1600px;
     height: 2285px;
+    margin: 0 auto;
     background-image: url(../../image/seongjin/story/story_visual.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+}
+.story_body_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 223px;
+    color: #c7b19b;
+    margin-bottom: 120px;
+}
+.story_body_title h1{
+    font-size: 2em;
+    margin: 30px 0;
+}
+.story_body_text{
+    display: flex;
+    justify-content: space-between;
+}
+.story_body_text div{
+    width: 650px;
+}
+.story_body_left{
+    text-align: right;
+}
+.story_body_right{
+    text-align: left;
+}
+.story_body_element{
+    position: relative;
+}
+.story_body_element h1{
+    color: #c7b19b;
+    font-size: 5.2em;
+}
+.story_body_element h3{
+    color: #c7b19b;
+    font-size: 1.8em;
+    font-family: futura-bold;
+    /* letter-spacing: 0.1em; */
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.story_body_element p{
+    color: white;
+    font-size: 0.96em;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+.story_body_special span{
+    color: red;
+    font-family: futura-bold;
+    font-size: 3.5em;
+}
+.story_body_special p{
+   opacity: 0.6;
+}
+#story_left{
+    position: relative;
+    top: -220px;
+    right: -100px;
+    color: white;
+}
+
+#story_text_1980{ top: 80px; }
+#story_text_1997{ top: 500px; }
+#story_text_1988{ top: 230px; }
+#story_text_2013{ top: 720px; }
+#story_text_2013 img{ 
+    float: left; 
+    margin-right: 30px;
+    margin-bottom: 10px;
 }
