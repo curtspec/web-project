@@ -1,6 +1,7 @@
 .index_article_outer{
     padding-bottom: 100px;
     position: relative;
+    overflow: hidden;
 }
 .index_image_slide_wrap{
     width: 100%;
