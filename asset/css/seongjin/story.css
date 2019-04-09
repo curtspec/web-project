@@ -20,6 +20,7 @@
     background-color: white;
     margin-top: -13px;
 }
+
 .story_navigator_wrap{
     border-bottom: 1px solid lightgray;
 }
@@ -81,18 +82,30 @@
     line-height: 1.6em;
     font-weight: bold;
 }
+.story_body_special h3{
+    font-size: 1.5em;
+    font-weight: normal;
+}
 .story_body_special span{
     color: red;
     font-family: futura-bold;
-    font-size: 3.5em;
+    font-weight: bold;
+    font-size: 2.5em;
 }
 .story_body_special p{
    opacity: 0.6;
+   font-size: 0.95em;
 }
 #story_left{
     position: relative;
     top: -220px;
-    right: -100px;
+    right: -80px;
+    color: white;
+}
+#story_right{
+    position: relative;
+    top: -173px;
+    left: -80px;
     color: white;
 }
 
