@@ -1,0 +1,128 @@
+/* article * {
+    border: 1px solid red;
+} */
+
+.BENEFIT-Card-back{
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;background-position:center center;background-size:auto; z-index: -1;
+}
+.back-text{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 190px 0px 270px 0px;
+    font-size: 75px
+
+    
+}
+.back-text code{
+    text-decoration: underline;
+}
+
+.List-all {
+    display: inline-flex;
+    margin-left: 85px;
+}
+
+.List-all List {
+    position: relative;
+    margin: 0;
+}
+
+.List-all .List ul{
+    list-style: none;
+    background-color: yellow;
+   
+    
+}
+
+.serve-title {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+}
+
+.Card-Guide {
+    background-color: #fff;
+}
+
+.Card-Guide h3{
+    display: inline;
+    margin-left: 85px;
+    font-size: 30px;
+}
+
+
+.Card-Guide legend h4{
+    display: block;
+}
+
+.Card-Guide legend{
+    display: inline-block;
+    margin: 20px 50px 30px 85px;
+    padding: 30px;
+    background-color: wheat;
+
+}
+
+.Card-Guide samp {
+    font-size: 10px
+}
+
+.Card-List {
+    display: inline-block;
+    margin-left: 80px
+
+}
+
+.Card-List ul li{
+   position: relative;
+   display: inline-block;
+   background-color: red;
+}
+
+.Card-service {
+   margin-top: 40px;
+   margin-left: 80px;
+}
+
+.Card-service img{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border: 0;
+    float: left;
+    max-width: 100%
+}
+
+
+.Card-service>.Card-service-title h4{
+  font-size: 20px;
+  
+  padding: 15px;
+}
+
+.Card-service>.Card-service-title strong{
+    margin-top: 15px;
+    color: red;
+    display: block;
+}
+
+.Card-service-text{
+    font-size:10px ;
+    padding-bottom: 110px
+}
+
+.Card-view-more a{
+
+    
+    margin-left: 5px;
+
+}
