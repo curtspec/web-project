@@ -23,6 +23,9 @@
     background-color: white;
     margin-top: -13px;
 }
+
+
+/* ----------------------------------------------- */
 .allround_navigator_wrap{
     border-bottom: 1px solid lightgray;
 }
@@ -91,7 +94,7 @@
     text-decoration: underline;
 }
 
-
+/* ----------------------------------------------- */
 
 article{
     margin-bottom: 200px;
