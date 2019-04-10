@@ -1,0 +1,273 @@
+article * {
+    /* border: 1px solid red; */
+}
+
+.Card-back{
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url(../../image/donghun_img/Benefit_back.jpg);
+    background-repeat: no-repeat;background-position:center center;background-size:auto; z-index: -1;
+    opacity: 1;
+    z-index: -1;
+}
+.back-text{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 190px 0px 270px 0px;
+    font-size: 75px
+
+    
+}
+.back-text code{
+    /* 글자아래 선 */
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.Card-menu{
+    position: relative;
+    width: 1180px;
+    height:50px;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+}
+
+.hom-click{
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+    width: 60px;
+    height: 48px;
+    background: url(../../image/donghun_img/btn_home_location.png)
+}
+
+.Clard-menu-list{
+    display: block;
+}
+
+.Clard-menu-list > ul {
+    list-style: none;
+}
+
+.Clard-menu-list > ul > li{
+    position: absolute;
+    top: 0px;
+    margin: -1 0 0 0;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+}
+
+.Clard-menu-list > ul > li.one {
+    left: 62px;
+}
+
+.Clard-menu-list > ul > li >a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    height: 27px;
+    padding: 0px 20px;
+    color: #666;
+    box-sizing: border-box;
+    transition:color 0.45s ease;
+}
+
+.Clard-menu-list > ul > li >a:hover{
+    color: #000;
+}
+.Clard-list-menu li {
+    list-style: none;
+    padding: 5px 20px;
+    background-color: #fff;
+}
+
+.Clard-list-menu-itme{
+    display: none;
+}
+
+.Clard-list-menu li a {
+    text-decoration: none;
+   color: #666;
+}
+
+.Clard-list-menu li a:hover {
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.Clard-list-menu> ul > li.tow {
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.Clard-menu-list .Clard-list-menu {
+    left: 279px;
+    list-style: none;
+}
+
+.Clard-serve-title {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    right: 0;
+    overflow: hidden;
+}
+
+.Clard-serve-title >li{
+    left: 0;
+    background: none;
+}
+
+.Clard-serve-title >li {
+    position: relative;
+    float: left;
+    list-style: none;
+    padding-left: 25px;
+
+}
+
+.Card-Detail-all {
+    position: relative;
+    width: 1180px;
+    padding-top: 80px;
+    margin: 0px auto;
+}
+
+.Card-Detail-title{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Card-Detail-title > span {
+    margin-left: 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+
+.Card-Detail-text{
+    margin-bottom: 60px;
+    padding: 40px;
+    background: #fffaf5;
+    border: 1px solid #c7b19b;
+    text-align: left;
+}
+
+.Card-Detail-text p{
+    margin-bottom: 13px;
+}
+
+.Card-Detail-text samp {
+    color: #666;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.Card-Kinds-all{
+    display: table;
+    width: 100%;
+    padding-left: 1px;
+}
+
+.Card-Kinds-all li {
+    list-style: none;
+    display: table-cell;
+}
+
+.Card-kinds-Color-click>a{
+    color: #fff;
+    border-color:red;
+    background-color: red;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-size: 400;
+    line-height: 62px;
+    border: 1px solid #dedede;
+    text-align: center;
+    z-index:  1;
+}
+
+.Card-Kinds-all .Card-kinds-Color>a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-size: 400;
+    line-height: 62px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    text-align: center;
+    z-index:  1;
+
+}
+
+.Card-list-Information{
+    padding: 40px 0;
+    
+    border-color:#fff; 
+}
+
+.Card-list-Information dl {
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.Card-list-Information dl dt {
+   padding: 0px;
+    float: left;
+    widows: 414px;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+
+.Card-list-Information dl dt img {
+    width: 330px;
+    max-width: 1
+}
+
+.Card-list-Information dl dd {
+    float: left;
+    width: 725px;
+}
+
+.Card-list-Information dl dd h4{
+    font-size: 20px;
+}
+
+.Card-list-Information dl dd strong{
+    display: block;
+    color: red;
+    margin-top: 15px;
+}
+
+.Card-list-Information .Card-list-Information-text {
+    margin: 30px 0 35px 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.Card-list-Information .Card-list-Information-click a {
+    border: 1px solid #666;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 10px;
+}
