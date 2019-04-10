@@ -1,4 +1,15 @@
+$('.one').click(function(){
+    if(  $(".one-list").is(":hidden")  ){
+         $(".one-list").slideDown("slow");
+        }else{
+         $(".one-list").slideUp("slow");
+      }
+    });
 
-          $('a.Clard-list-menu-click').click(function(){
-              alert("aaaa");
-          });
+    $('.tow').click(function(){
+    if(  $(".tow-list").is(":hidden")  ){
+         $(".tow-list").slideDown("slow");
+        }else{
+         $(".tow-list").slideUp("slow");
+      }
+    });
