@@ -1,45 +1,43 @@
 body {margin: 0; padding: 0;}
-li{list-style: none;}
+li{list-style: none; color: #bbb;}
 a{text-decoration: none;}
 
 .store-page-title{text-align: center; color: white; font-size: 50px;}
 .store-page-title span{display: block; background: white; width: 100%; height: 2px; margin-top: -12px;}
 .store-back-img{background-image: url('../../image/elpoco/store/store_back.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 600px; display: flex; align-items: center; justify-content: center;}
 
-.store-nav{width: 100%; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; height: 50px;}
-.store-nav ul{float: left;}
-.store-nav-arrow{position: relative; margin-left: 150px;}
-.store-location-menu{height: 48px; text-align: left; display: flex; align-items: center;}
-.store-location-menu li{display: inline;}
-.store-location-menu .list a{color: black; opacity: 0.4; font-size: 18px; font-weight: bold;}
-.store-location-menu li a:hover{opacity: 1.0;}
-.store-location-btn{background: url('../../image/elpoco/store/btn_home_location.png') center ; display: block; height: 48px; width: 40px; margin-left: 80px; padding: 1px 10px; border-left: 1px solid #dedede;}
-.store-location-nav-list{border-left: 1px solid #dedede; padding: 13px 10px;}
-.store-location-nav-last{border-right: 1px solid #dedede;}
-.store-location{position: absolute; right: 0px; margin-right: 140px;}
-.store-location li{position: relative; float: left; padding-left: 25px; background: url('../../image/elpoco/store/location_arrow.png') 10px center no-repeat;}
-.store-location li span{color:#999; font-size: 14px; line-height:50px; }
-.store-location li:first-child{background: none;padding-left: 0px;}
-.store-location li:last-child span{color: #222;}
+.allround_navigator_wrap{border-bottom: 1px solid lightgray;}
+.allround_navigator{width: 1200px; margin: 0px auto; display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
+.allround_navi_anchor{display: flex;}
+.allround_navi_anchor>a{border-left : 1px solid lightgray; border-right : 1px solid lightgray;}
+.allround_navi_anchor>a>img{height: 45px;}
+#allround_loca{color: gray; font-size: 0.95em;}
+.allround_dropdown_wrap{padding: 0 20px; border-right: 1px solid lightgray; font-weight: 600; position: relative;}
+.allround_dropdown_title{width: 220px; cursor:pointer; display: flex; justify-content: space-between; flex-direction: row; align-items: center; color: black; line-height: 42px; margin-top: 3px; opacity: 0.4;}
+.allround_dropdown_title>img{margin-left: 30px;}
+.allround_dropdown_contents{background-color: white; list-style: none; position: absolute; top: 45px; left: -1px; width: 260px; padding: 10px 0; outline: none; border-bottom: 1px solid lightgray; border-left: 1px solid lightgray; border-right: 1px solid lightgray;}
+.allround_dropdown_contents li{opacity: 0.4; cursor:pointer; margin: 20px 20px;}
+.allround_dropdown_contents li:hover{opacity: 1; text-decoration: underline;}
+
+.store-location-menu-list{display: block;}
 
 .store-body{width: 100%; display: flex; flex-direction: column; align-items: center;}
 
-.store-nav-list-back{background: url('../../image/elpoco/store/bg_showtimes_favorite.gif') no-repeat; height: 345px; padding: 50px; margin-top: 40px;}
-.store-nav-list{ border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; padding: 15px 0px; text-align: center; max-width: 880px; margin-top: 30px;}
-.store-nav-list li{display: inline;}
-.store-nav-list li a{color: white; margin: 0px 20px; opacity: 0.7;}
-.store-nav-list li a:hover{opacity: 1.0;}
+.store-nav-list-back{background: url('../../image/elpoco/store/bg_showtimes_favorite.jpg') no-repeat; height: 345px; padding: 50px; margin-top: 40px;}
+.store-nav-list{ border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; padding: 15px 0px; text-align: center; max-width: 880px; margin-top: 10px;}
+.store-nav-list li{display: inline; margin: 0px 20px; cursor: pointer;}
+.store-nav-list li:hover{color: white;}
 
 .store-nav-area{width: 880px;}
-.store-nav-area ul{text-align: center; width: 600px; margin: 30px auto;}
-.store-nav-area ul li{display: inline; color: white; margin-left: 10px;}
-.store-nav-area ul li a{color: white; margin-right: 10px; display: inline-block; margin-bottom: 20px; opacity: 0.7;}
-.store-nav-area ul li a:hover{opacity: 1;}
+.store-nav-area ul{text-align: center; width: 600px; margin: 30px auto; color: #bbb;}
+.store-nav-area ul li{display: inline; margin: 0 10px 20px 10px; cursor: pointer; display: inline-block;}
+.store-nav-area ul li:hover{color: white;}
 
 .store-nav-title{margin: 40px; width: 1200px; border-top: 1px solid black; border-bottom: 1px solid black; padding: 15px 20px;}
 .store-nav-title h2,
 .store-nav-title h4{display: inline;}
 
+.store-store{}
 .store-list{width: 1200px; display: flex;}
 .store-list img{width: 300px; height: 200px; margin-right: 20px;}
 .store-list a{color: black;}
@@ -47,3 +45,6 @@ a{text-decoration: none;}
 .store-list a p{margin-bottom: 5px;}
 .store-reservation{display: inline; background-color: #CB0000; padding: 8px 15px;}
 .store-reservation a{color: white; font-weight: bold;}
+.store-list-line{width: 1250px; height: 1px; background-color: #999; margin-top: 8px;}
+
+.on{font-weight: bold; color: white;}
