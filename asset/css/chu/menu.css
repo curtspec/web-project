@@ -1,0 +1,97 @@
+
+
+div.menu-top-visual {
+    position: fixed;
+    top: 100px;
+    left: 0;    
+    width: 100%;
+    height: 650px;
+    opacity: 0;
+    z-index: -1;
+    text-shadow: 0 0 black;
+    display: table;
+    border: 1px solid black;
+    background-image: url(../image/chu/menu_img/bls.jpg);
+    background-position: center top;
+}
+
+div.menu-item-visual{
+    margin-top: 10px; 
+     
+    overflow: auto;
+    display: inline-block;
+    font:bold;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: normal;
+    
+    
+    
+}
+.menu-item-visual>div{
+    padding: 0px;
+    position: relative;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.menu-setting{
+    background-color: white;
+    padding: 200px;
+    
+
+}
+.menu-setting>h1{
+    font-size: 3em;
+    display: block;
+    position: relative;
+    clear: both;
+}
+.menu-item-setting{
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    position: relative;
+  
+    
+}
+.menu-item-img{
+    
+    z-index: -0.5;
+    
+}
+.menu-item-name{
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item-hover>p{
+    font-size: 0.8em;
+    font-weight: bold;
+    
+}
+.menu-item-hover{
+    position: absolute;
+    top: 50px;
+}
+
+.menu-setting>ul>li{
+    border: 1px solid black;
+    list-style: none;
+    float: left;
+    padding: 10px 9px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    position: relative;
+    width: 600px;
+    height: 545px;
+    
+}
+
+
+
