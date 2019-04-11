@@ -1,3 +1,6 @@
+$(document).ready(()=>{
+
+
 $('.one').click(function(){
     if(  $(".one-list").is(":hidden")  ){
          $(".one-list").slideDown("slow");
@@ -13,3 +16,4 @@ $('.one').click(function(){
          $(".tow-list").slideUp("slow");
       }
     });
+  })

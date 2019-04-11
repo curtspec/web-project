@@ -2,15 +2,19 @@ article * {
     /* border: 1px solid red; */
 }
 
+hr{
+    margin: 10px;
+}
+
 .Card-back{
-    top: 100px;
-    left: 0;
-    width: 100%;
-    height: 600px;
     background-image: url(../../image/donghun_img/Benefit_back.jpg);
-    background-repeat: no-repeat;background-position:center center;background-size:auto; z-index: -1;
-    opacity: 1;
-    z-index: -1;
+    background-attachment: fixed;
+    background-position: 0 100px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
 }
 .back-text{
     position: absolute;
@@ -72,7 +76,7 @@ article * {
     left: 62px;
 }
 
-.Clard-menu-list > ul > li >a {
+.Clard-menu-list > ul > li >p {
     position: relative;
     display: block;
     text-decoration: none;
@@ -84,12 +88,13 @@ article * {
     transition:color 0.45s ease;
 }
 
-.Clard-menu-list > ul > li >a:hover{
+.Clard-menu-list > ul > li >p:hover{
     color: #000;
 }
 .Clard-list-menu li {
     list-style: none;
-    padding: 5px 20px;
+    z-index: 1;
+    padding: 10px 20px;
     background-color: #fff;
 }
 
@@ -97,8 +102,13 @@ article * {
     display: none;
 }
 
+.Clard-list-menu li{
+    z-index: 1;
+}
+
 .Clard-list-menu li a {
     text-decoration: none;
+    z-index: 1;
    color: #666;
 }
 
@@ -201,7 +211,6 @@ article * {
     line-height: 62px;
     border: 1px solid #dedede;
     text-align: center;
-    z-index:  1;
 }
 
 .Card-Kinds-all .Card-kinds-Color>a{
@@ -215,7 +224,6 @@ article * {
     background-color: #fff;
     border: 1px solid #dedede;
     text-align: center;
-    z-index:  1;
 
 }
 
@@ -227,6 +235,7 @@ article * {
 
 .Card-list-Information dl {
     padding-top: 40px;
+    border-top: 1px solid #666; 
     overflow: hidden;
 }
 
@@ -255,11 +264,11 @@ article * {
 .Card-list-Information dl dd strong{
     display: block;
     color: red;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
 .Card-list-Information .Card-list-Information-text {
-    margin: 30px 0 35px 0;
+    margin: 20px 0 25px 0;
     color: #666;
     font-size: 14px;
     line-height: 21px;
@@ -267,7 +276,9 @@ article * {
 
 .Card-list-Information .Card-list-Information-click a {
     border: 1px solid #666;
-    padding: 5px;
+    padding: 8px;
+    display: inline-block;
     text-decoration: none;
+    color: #000;
     font-size: 10px;
 }
