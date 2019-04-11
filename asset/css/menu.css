@@ -1,0 +1,107 @@
+div.menu-top-visual {
+    position: fixed;
+    top: 100px;
+    left: 0;    
+    width: 100%;
+    height: 650px;
+    opacity: 0;
+    z-index: -1;
+    text-shadow: 0 0 black;
+    display: table;
+    border: 1px solid black;
+    background-image: url(../image/kim_Image/STEAKS_Image/STEAKS_MAIN.png);
+    background-position: center top;
+}
+
+div.menu-item-visual{
+     
+     
+    overflow: auto;
+    display: inline-block;
+    font:bold;
+    
+    text-align: center;
+    font-style: normal;
+    
+    
+    
+}
+
+
+
+.menu-setting{
+    background-color: white;
+    padding:100px 300px 100px 300px;
+    
+
+}
+.menu-setting>h1{
+    font-size: 2em;
+    display: block;
+    position: relative;
+    clear: both;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu-setting>hr{
+ margin-bottom: 20px;
+ border: 1px solid black;
+    
+}
+.menu-item-setting{
+    padding-top: 0;
+    margin: 0;
+    background-position: center;
+    position: relative;
+  
+    
+}
+.menu-item-img{
+    
+    z-index: -0.5;
+    
+}
+.menu-item-name{
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    font: bold;
+    font-size: 1.5em;
+}
+
+.menu-item-hover>p{
+    font-size: 0.8em;
+    font-weight: bold;
+    
+}
+.menu-item-hover{
+    width: 100%;
+    height: 390px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    color: white;
+    padding: 0px;
+}
+.menu-item-origin{
+    border: 1px solid white;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu-setting>ul>li{
+    border: 1px solid gainsboro;
+    list-style: none;
+    display: inline-block;
+    
+    box-sizing: border-box;
+    
+    margin-top: 20px;
+    position: relative;
+    
+    height: 545px;
+    
+}
