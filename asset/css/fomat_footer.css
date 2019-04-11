@@ -11,9 +11,9 @@ footer{
 div.footer_info_wrap{
     width: 1200px;
     margin: 0 auto;
-    /* border: 1px dotted white; */
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     position: relative;
 }
 div.footer_info_wrap>img{
@@ -36,8 +36,6 @@ p.footer_mid_anchor a{
     border: 1px solid white;
 }
 div.footer_right_menu{
-    position: absolute;
-    right: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -45,6 +43,7 @@ div.footer_right_menu{
 div.footer_right_menu>ul{
     list-style: none;
     opacity: 0.7;
+    text-align: right;
 }
 div.footer_right_menu li{
     display: inline-block;
