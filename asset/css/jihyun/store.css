@@ -4,7 +4,7 @@ a{text-decoration: none;}
 
 .store-page-title{text-align: center; color: white; font-size: 50px;}
 .store-page-title span{display: block; background: white; width: 100%; height: 2px; margin-top: -12px;}
-.store-back-img{background-image: url('../../image/elpoco/store/store_back.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 600px; display: flex; align-items: center; justify-content: center;}
+.store-back-img{background-image: url('../../image/elpoco/store/store_back.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 600px; display: flex; align-items: center; justify-content: center; opacity: 0.8;}
 
 .allround_navigator_wrap{border-bottom: 1px solid lightgray;}
 .allround_navigator{width: 1200px; margin: 0px auto; display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
@@ -45,6 +45,10 @@ a{text-decoration: none;}
 .store-list a p{margin-bottom: 5px;}
 .store-reservation{display: inline; background-color: #CB0000; padding: 8px 15px;}
 .store-reservation a{color: white; font-weight: bold;}
-.store-list-line{width: 1250px; height: 1px; background-color: #999; margin-top: 8px;}
+.store-list-line{width: 1250px; height: 1px; background-color: #999; margin-top: 8px; margin-bottom: 8px;}
+
+.store-no-store{}
+.store-no-store div{}
+.store-no-store div h2{margin-left: 20px;}
 
 .on{font-weight: bold; color: white;}
